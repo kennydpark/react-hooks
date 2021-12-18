@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      <p>My name is {name}</p>
+      <p>My name is {name}.</p>
       <button onClick={changeName}> Click me </button>
     </div>
   );
