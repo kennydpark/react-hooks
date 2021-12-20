@@ -24,8 +24,6 @@ export default function Button() {
     <div>
       <button onClick={handleClick1}>Click me1</button>
       <button onClick={handleClick2}>Click me2</button>
-      {/* <button onClick={() => setCount(count + 1)}>Click me</button>
-      <button onClick={() => setCount2(count2 + 1)}>Click me</button> */}
     </div>
   );
 }
