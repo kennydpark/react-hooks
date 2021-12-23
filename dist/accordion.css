@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion {
+  width: 500px;
+}
+
+.topic {
+  background-color: rgb(226, 226, 226);
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.title {
+  padding: 0 10px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.body {
+  color: black;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0,1,0,1);
+}
+
+.body.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.4s cubic-bezier(1,0,1,0);
+}
